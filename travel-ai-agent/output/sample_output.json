@@ -1,0 +1,251 @@
+{
+  "trip_summary": "3-day trip from Hyderabad to Delhi. Estimated cost: INR 17136.0. Within budget.",
+  "source": "Hyderabad",
+  "destination": "Delhi",
+  "num_days": 3,
+  "budget_limit": 25000,
+  "within_budget": true,
+  "preferences": "temples",
+  "selected_flight": {
+    "flight_id": "FL0001",
+    "airline": "IndiGo",
+    "departure": "2025-01-04T11:32:00",
+    "arrival": "2025-01-04T15:32:00",
+    "duration": "4h",
+    "duration_hours": 4.0,
+    "price": 2907.0,
+    "source": "Hyderabad",
+    "destination": "Delhi",
+    "travel_date": "2025-01-04"
+  },
+  "selected_hotel": {
+    "hotel_id": "HOT0005",
+    "hotel_name": "Blue Lagoon Resort",
+    "city": "Delhi",
+    "price": 2743.0,
+    "rating": 2.0,
+    "amenities": [
+      "gym",
+      "breakfast"
+    ]
+  },
+  "weather_forecast": {
+    "success": true,
+    "city": "Delhi",
+    "coordinates": {
+      "latitude": 28.65195,
+      "longitude": 77.23149
+    },
+    "current": {
+      "temperature_c": 36.2,
+      "humidity_percent": 21,
+      "wind_speed_kmh": 5.8,
+      "condition": "Clear sky",
+      "observed_at": "2026-05-21T00:00"
+    },
+    "forecast": [
+      {
+        "date": "2026-05-20",
+        "condition": "Mainly clear",
+        "temp_max_c": 44.4,
+        "temp_min_c": 33.3,
+        "precipitation_mm": 0.0
+      },
+      {
+        "date": "2026-05-21",
+        "condition": "Clear sky",
+        "temp_max_c": 43.9,
+        "temp_min_c": 32.7,
+        "precipitation_mm": 0.0
+      },
+      {
+        "date": "2026-05-22",
+        "condition": "Clear sky",
+        "temp_max_c": 43.0,
+        "temp_min_c": 31.6,
+        "precipitation_mm": 0.0
+      }
+    ],
+    "forecast_days": 3
+  },
+  "attractions": [
+    {
+      "place_id": "PLC0001",
+      "attraction_name": "Famous Fort",
+      "type": "lake",
+      "category": "lake",
+      "rating": 4.6,
+      "description": "Famous Fort is a popular lake destination in Delhi. Rated 4.6/5.",
+      "city": "Delhi"
+    },
+    {
+      "place_id": "PLC0004",
+      "attraction_name": "Popular Museum",
+      "type": "lake",
+      "category": "lake",
+      "rating": 4.5,
+      "description": "Popular Museum is a popular lake destination in Delhi. Rated 4.5/5.",
+      "city": "Delhi"
+    },
+    {
+      "place_id": "PLC0002",
+      "attraction_name": "Beautiful Temple",
+      "type": "temple",
+      "category": "temple",
+      "rating": 4.2,
+      "description": "Beautiful Temple is a popular temple destination in Delhi. Rated 4.2/5.",
+      "city": "Delhi"
+    },
+    {
+      "place_id": "PLC0003",
+      "attraction_name": "Historic Fort",
+      "type": "museum",
+      "category": "museum",
+      "rating": 4.2,
+      "description": "Historic Fort is a popular museum destination in Delhi. Rated 4.2/5.",
+      "city": "Delhi"
+    },
+    {
+      "place_id": "PLC0005",
+      "attraction_name": "Famous Fort",
+      "type": "lake",
+      "category": "lake",
+      "rating": 3.5,
+      "description": "Famous Fort is a popular lake destination in Delhi. Rated 3.5/5.",
+      "city": "Delhi"
+    }
+  ],
+  "day_wise_itinerary": [
+    {
+      "day": 1,
+      "date": null,
+      "theme": "Lake",
+      "activities": [
+        {
+          "time": "09:30",
+          "title": "Famous Fort",
+          "category": "lake",
+          "rating": 4.6,
+          "description": "Famous Fort is a popular lake destination in Delhi. Rated 4.6/5."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": null,
+      "theme": "Lake",
+      "activities": [
+        {
+          "time": "09:30",
+          "title": "Popular Museum",
+          "category": "lake",
+          "rating": 4.5,
+          "description": "Popular Museum is a popular lake destination in Delhi. Rated 4.5/5."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": null,
+      "theme": "Lake, Museum, Temple",
+      "activities": [
+        {
+          "time": "09:30",
+          "title": "Beautiful Temple",
+          "category": "temple",
+          "rating": 4.2,
+          "description": "Beautiful Temple is a popular temple destination in Delhi. Rated 4.2/5."
+        },
+        {
+          "time": "12:30",
+          "title": "Historic Fort",
+          "category": "museum",
+          "rating": 4.2,
+          "description": "Historic Fort is a popular museum destination in Delhi. Rated 4.2/5."
+        },
+        {
+          "time": "15:30",
+          "title": "Famous Fort",
+          "category": "lake",
+          "rating": 3.5,
+          "description": "Famous Fort is a popular lake destination in Delhi. Rated 3.5/5."
+        }
+      ]
+    }
+  ],
+  "budget_breakdown": {
+    "flights": 2907.0,
+    "hotels": 8229.0,
+    "hotel_nights": 3,
+    "local_transport": 2400,
+    "food": 3600,
+    "extra_expenses": 0.0,
+    "total_estimated_cost": 17136.0,
+    "currency": "INR",
+    "num_days": 3
+  },
+  "recommendation_reasoning": "",
+  "generated_at": "2026-05-20T18:43:40.132430Z",
+  "agent_narrative": "",
+  "flight_search": {
+    "success": true,
+    "mode": "cheapest",
+    "count": 1,
+    "selected": {
+      "flight_id": "FL0001",
+      "airline": "IndiGo",
+      "departure": "2025-01-04T11:32:00",
+      "arrival": "2025-01-04T15:32:00",
+      "duration": "4h",
+      "duration_hours": 4.0,
+      "price": 2907.0,
+      "source": "Hyderabad",
+      "destination": "Delhi",
+      "travel_date": "2025-01-04"
+    },
+    "flights": [
+      {
+        "flight_id": "FL0001",
+        "airline": "IndiGo",
+        "departure": "2025-01-04T11:32:00",
+        "arrival": "2025-01-04T15:32:00",
+        "duration": "4h",
+        "duration_hours": 4.0,
+        "price": 2907.0,
+        "source": "Hyderabad",
+        "destination": "Delhi",
+        "travel_date": "2025-01-04"
+      }
+    ],
+    "reasoning": "Selected the lowest price flight."
+  },
+  "hotel_search": {
+    "success": true,
+    "count": 1,
+    "selected": {
+      "hotel_id": "HOT0005",
+      "hotel_name": "Blue Lagoon Resort",
+      "city": "Delhi",
+      "price": 2743.0,
+      "rating": 2.0,
+      "amenities": [
+        "gym",
+        "breakfast"
+      ]
+    },
+    "hotels": [
+      {
+        "hotel_id": "HOT0005",
+        "hotel_name": "Blue Lagoon Resort",
+        "city": "Delhi",
+        "price": 2743.0,
+        "rating": 2.0,
+        "amenities": [
+          "gym",
+          "breakfast"
+        ]
+      }
+    ],
+    "reasoning": "Top 1 hotels sorted by value."
+  }
+}
